@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Kalkidan Teklu -->
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../ThoughtsBank/thoughtsbank.css" />
+<title>User Home Page</title>
+</head>
+<body>
+	<#include "header.ftl">
+	<form action="/ThoughtsBank/ThoughtBoundary" method="post">
+	<input type="hidden" name="fname" value="${userName}"/>
+		New Thought:<input type="text" class="search" name="newthought" /><button type="submit" name="newThoughtsButton" class="primary">Save Thoughts</button><button type="submit" name="viewThoughtsButton" class="primary">View My Thoughts</button>
+		
+	</form>
+</body>
+</html>

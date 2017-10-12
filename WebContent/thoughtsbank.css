@@ -1,0 +1,46 @@
+header, footer {
+    padding: 1em;
+    padding-bottom: 22px;
+    border-radius: 0.5em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.center {
+    display: block;
+    margin: 0 auto;
+    width:40%;
+}
+.gray_background{
+	background-color:#F5F5F5;
+}
+div.center article{
+	padding: 30px;
+}
+button.primary {
+	background-color:#4CAF50 !important;
+	border-radius: 0.25em;
+	max-width: 150px;
+	min-width: 90px;
+	border: 8px;
+    margin: 5px;
+}
+input.search {
+	width: 350px;
+}
+tr:nth-child(even) {
+	background: #bebebe;
+}
+tr:nth-child(odd) {
+	background: #FFF;
+}
+table {
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 1px solid black;
+    width: 40%;
+}

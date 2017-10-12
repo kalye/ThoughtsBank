@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Kalkidan Teklu -->
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../ThoughtsBank/thoughtsbank.css" />
+<title>Welcome To Thoughts Bank</title>
+</head>
+<body>
+	<#include "header.ftl" parse=true>
+
+	<div class="center gray_background">
+		<article>
+		
+			<form action="/ThoughtsBank/ThoughtBoundary" method="post">
+				Username:<input type="text" name="fname" />
+				
+				 <br /> 
+				Password:  <input type="password" name="password" /> 
+				<br /> 
+				<!-- <input type="submit" value="Sign In" /> -->
+				<button type="submit" name="loginButton" style="margin-top: 20px;" class="primary">Sign In</button>
+			</form>
+		</article>
+
+
+	</div>
+</body>
+</html>

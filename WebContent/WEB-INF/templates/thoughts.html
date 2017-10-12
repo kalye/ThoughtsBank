@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Kalkidan Teklu -->
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css"
+	href="../ThoughtsBank/thoughtsbank.css" />
+<title>View Thoughts Page</title>
+</head>
+<body>
+	<#include "header.ftl"> 
+	<input type="hidden" name="fname" value="${userName}" /> 
+	<label id="message"> ${userName}! You have ${size} thoughts.
+		<#if (size gt 0) >
+		 Here is the list: 
+		 </#if>
+	</label>
+	<table>
+		<#list thoughts as thought>
+		<tr>
+			<td>${thought}</td>
+		</tr>
+		</#list>
+	</table>
+</body>
+</html>
